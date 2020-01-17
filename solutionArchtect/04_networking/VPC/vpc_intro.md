@@ -11,4 +11,15 @@ You can enable Internet access for an instance launched into a nondefault subnet
 
 To allow an instance in your VPC to initiate outbound connections to the Internet but prevent unsolicited inbound connections from the Internet, you can use a **NAT**. NAT maps multiple private IPv4 addresses to a single public IPv4 address. A NAT device has an Elastic IP address and is connected to the internet through an internet gateway. You can connect an instance in a private subnet to the internet through the NAT device, which routes traffic from the instance to the internet gateway, and routes any responses to the instance.
 
+
+#Connecting to a VPC
 A **virtual private gateway** is the VPN concentrator on the Amazon side of the VPN connection. A VPN connection consists of a virtual private gateway attached to your VPC and a customer gateway located in your data center. A virtual private gateway is the VPN concentrator on the Amazon side of the VPN connection. A customer gateway is a physical device or software appliance on your side of the VPN connection.
+
+Customer gateway is a physical device or software applicaion on you side of the VPN connection
+Other options including AWS Direct Connect
+
+#Main Requirement for Internet Connectivity
+
+1) EC2 instance has a **Public IP address**.
+2) VPC has an **Internet Gateway**.
+3) **Route** defined in a route table from **subnet to IGW**.
