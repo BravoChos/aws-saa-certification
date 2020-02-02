@@ -28,6 +28,6 @@ and control and also, operational troubleshooting.
 AWS Opsworks provides managed instances of Chef and Puppet. Chef and Puppet can be used 
 to configure and automate the deployment of AWS resources. 
 
-AWS trusted advisor is an online expert system that can analyze your AWS account and 
+**AWS Trusted Advisor** is an online expert system that can analyze your AWS account and 
 the resources inside it and then advise you on how to achieve high security and best 
 performance from those resources.

@@ -10,6 +10,9 @@ A **internet gateway** enables your instances to connect to the Internet through
 You can enable Internet access for an instance launched into a nondefault subnet by attaching an Internet gateway to its VPC (if its VPC is not a default VPC) and associating a **Elastic IP address** with the instance.
 
 To allow an instance in your VPC to initiate outbound connections to the Internet but prevent unsolicited inbound connections from the Internet, you can use a **NAT**. NAT maps multiple private IPv4 addresses to a single public IPv4 address. A NAT device has an Elastic IP address and is connected to the internet through an internet gateway. You can connect an instance in a private subnet to the internet through the NAT device, which routes traffic from the instance to the internet gateway, and routes any responses to the instance.
+=> NAT instance and NAT Gateway are used when private resources are required to access the Internet.
+=> VPN is used to create connection between the On-premises and AWS resources.
+=> VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them privately.
 
 **Primary private IP addresses** retained for the instance's or interface's lifetime. **Secondary private IP addresses** can be assigned, unassigned, or moved between interfaces or instances at any time.
 

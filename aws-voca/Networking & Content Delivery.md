@@ -25,7 +25,7 @@ Amazon route 53: is a highly available and scalable domain name system or DNS
 for short and it can handle direct traffic for your domain name and direct
 that traffic to your back-end web server. 
 
-Amazon API gateway is a fully managed service that makes it easy for developers to create and deploy secure
+Amazon API gateway: is a fully managed service that makes it easy for developers to create and deploy secure
 application programming interfaces or api's at any scale. 
 It handles all of the tasks involved in accepting and processing up to hundreds of thousands
 of concurrent API calls.
