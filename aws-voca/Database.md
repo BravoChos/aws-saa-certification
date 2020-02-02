@@ -5,6 +5,11 @@ MariaDB and Amazon's own enterprise version of mySQL, Amazon Aurora.
 Standard postgre SQL is also available and also available as Amazon's Enterprise Aurora postgre SQL. 
 Microsoft SQL server and oracle are also available. 
 
+Amazon Aurora: is a fully managed MySQL and PostgreSQL compatible, relational database engine.
+It combines the speed and reliablity of high-end commercial database with the simplicty and cost-effectiveness of open-source databases.
+It delivers up to five times the throughput of MySQL and up to three times the throughput of PostgreSQL without requiring any changes in most of your existing applictions.
+Aurora Cluster can grow up to 64 TB in size and replica lag -- is less than 100 miliseconds after the primary instance has written and update.
+
 Amazon DynamoDB: is AWS as no SQL database as a service. It's a service service like Amazon s3 and 
 as such you don't need to worry about the underlying infrastructure behind it.
 AWS takes care of everything for you and it provides high speed extremely low

@@ -8,7 +8,7 @@ It can manage the entire CI CD pipeline for you.
 It has a project management dashboard including and integrated issue tracking
 capability powered by Atlassian JIRA software. 
 
-AWS X-ray makes it easy to analyze and debug applications. This provides you with
+AWS X-ray: makes it easy to analyze and debug applications. This provides you with
 a better insight to the performance of your application and the underlying services that it relies upon.
 
 AWS code commit: is a git repository just like github and it's running in the AWS cloud. 
