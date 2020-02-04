@@ -1,4 +1,4 @@
-* Business Productivity & App streaming *
+**Business Productivity & App streaming**
 
 Amazon WorkDocs: is a secure fully managed file collaboration and management service 
 in the AWS cloud. The web client allows you to view and provide feedback for over 
