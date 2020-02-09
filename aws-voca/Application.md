@@ -1,3 +1,4 @@
+# Application
 **SWF** or Amazon Simple Workflow service: works in a similar way to step functions in
 coordinating multiple components of a business process for new applications
 it's recommended to use step functions not the swf service Amazon.
