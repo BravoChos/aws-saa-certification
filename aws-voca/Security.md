@@ -1,4 +1,5 @@
-**AWS artifact**: is an online portal that provides access to AWS security and compliance
+# Security
+**AWS Artifact**: is an online portal that provides access to AWS security and compliance
 documentation and that documentation can be readily available when needed for
 auditing and compliance purposes. 
 
@@ -12,7 +13,7 @@ that can only have a single hierarchy.
 
 **AWS Directory Service** is a fully managed Microsoft Active Directory service in the AWS cloud.
 
-**AWS cloud HSM** is a dedicated hardware security module in the AWS cloud. This allows you to
+**AWS Cloud HSM** is a dedicated hardware security module in the AWS cloud. This allows you to
 achieve corporate and regulatory compliance while at the same time greatly reducing your costs 
 over using your own HSM in your own infrastructure.
 

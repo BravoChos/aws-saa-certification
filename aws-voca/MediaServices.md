@@ -1,5 +1,4 @@
-**AWS Media Services**
-
+# AWS Media Services
 **Elemental MediaConvert**: is a file based video transcoding service for converting video formats for video on the main content.
 
 **Elemental MediaPackage**: prepares video content for delivery over the internet. It can also protect against piracy through the use of digital rights management.

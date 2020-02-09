@@ -1,9 +1,9 @@
-**AWS Developer Tools**
+# AWS Developer Tools
 
 **AWS Cloud9**: is an integrated development environment running in the AWS cloud.
 It allows you to deploy servers directly to AWS from an integrated development environment.
 
-**AWS Code star**: makes it easy to develop and deploy applications to AWS. It can manage the entire CI CD pipeline for you. It has a project management dashboard including and integrated issue tracking capability powered by Atlassian JIRA software. 
+**AWS Code Star**: makes it easy to develop and deploy applications to AWS. It can manage the entire CI CD pipeline for you. It has a project management dashboard including and integrated issue tracking capability powered by Atlassian JIRA software. 
 
 **AWS X-ray**: makes it easy to analyze and debug applications. This provides you with a better insight to the performance of your application and the underlying services that it relies upon.
 

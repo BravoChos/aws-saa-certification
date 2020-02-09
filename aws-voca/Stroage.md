@@ -1,4 +1,4 @@
-# voca
+# Storage
 **S3**: It's designed to store and access any type of data over the Internet.
 
 **Glacier**: is the cheapest storage option on AWS and it's used for long-term archiving of data. 

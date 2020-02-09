@@ -1,5 +1,4 @@
-**Mobile Services**
-
+# Mobile Services
 **Mobile Hub**: allows you to easily configure your AWS services for mobile applications 
 in one place. It generates a cloud configuration file which stores information about 
 those configured services. 
