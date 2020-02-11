@@ -1,0 +1,2 @@
+# Amazon RDS
+The **RDS**: or Relational database service is a fully managed database service that makes it easy to launch database servers in the AWS cloud and scale them  when required. The RDS service can launch service for mySQL including variations of the mySQL database engine with MariaDB and Amazon's own enterprise version of mySQL, Amazon Aurora. Standard postgre SQL is also available and also available as Amazon's Enterprise Aurora postgre SQL. Microsoft SQL server and oracle are also available. 
