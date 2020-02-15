@@ -22,3 +22,5 @@
 **AWS Shield**: provides protection against distributed denial of service or DDoS for short protection against DDoS attacks. The standard version of a double shield is implemented automatically on all AWS accounts.
 
 **WAF** or Web Application Firewall: is that sits in front of your website to provide additional protection against common attacks such as SQL injection and cross-site scripting. It has different sets of rules that can be used for different applications.
+
+**AWS SSO** or AWS Single Sign On: is a cloud-based single sign-on (SSO) service that makes it easy to centrally manage SSO access to all of your AWS accounts and cloud applications. 
