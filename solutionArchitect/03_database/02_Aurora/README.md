@@ -1,0 +1,2 @@
+# Amazon Aurora
+**Amazon Aurora**: is a fully managed MySQL and PostgreSQL compatible, relational database engine. It combines the speed and reliablity of high-end commercial database with the simplicty and cost-effectiveness of open-source databases. It delivers up to five times the throughput of MySQL and up to three times the throughput of PostgreSQL without requiring any changes in most of your existing applictions. Aurora Cluster can grow up to **64 TB** in size and replica lag -- is less than **100 miliseconds** after the primary instance has written and update.
