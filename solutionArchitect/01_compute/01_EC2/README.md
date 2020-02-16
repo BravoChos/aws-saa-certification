@@ -1,0 +1,2 @@
+# EC2
+**EC2** or Amazon Elastic Compute cloud for short provides virtual servers in the AWS cloud you can launch one or thousands of instances simultaneously and only pay for what you use there's a broad range of instance types with varying compute and memory capabilities and those will be optimized for different use cases. 

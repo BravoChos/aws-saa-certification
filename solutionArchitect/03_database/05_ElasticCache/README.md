@@ -1,5 +1,5 @@
 # ElasticCache
-**ElastiCache**: is an in-memory data store or cache in the cloud it allows you to retrieve information from fast fully managed in-memory caches instead of relying for slower disk based databases. They are two types of ElastiCache.
+**ElastiCache**: is an in-memory data store or cache in the cloud it allows you to retrieve information from fast fully managed in-memory caches instead of relying for slower disk based databases. If offers fully managed Redis and Memcached. Seamlessly deploy, operate, and scacle popular open source compatible in-memory data stores. Build data-intensive apps or improve the performance of your existing apps by retrieving data from high throughput and low latency in-memory data stores.
 
 - Redis: is a key-value store that supports abstract data types and optional data durability.
 

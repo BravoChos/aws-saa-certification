@@ -1,13 +1,10 @@
-Keywords: At-Least-Once Delivery, SQS standard/FIFO, SetQueueAttribute, delay queue, DelaySeconds attribute, 4days, 1min ~ 14days, exactly-once processing, short polling, queue url, GetQueueAttributes, visibility timeout, 30sec ~ 12hours, long polling, Receive Message Wait Time
-
-
-**Section: What is Amazon Simple Queue Service?**
+# Amazon Simple Queue Service
 Amazon SQS **standard** queue ensures delivery of each message at least once. 
 
-**At-Least-Once Delivery**
+## At-Least-Once Delivery
 Amazon SQS stores copies of your messages on multiple servers for redundancy and high availability. On rare occasions, one of the servers that stores a copy of a message might be unavailable when you receive or delete a message. If this occurs, the copy of the message isn't deleted on that unavailable server, and you might get that message copy again when you receive messages. Design your applications to be idempotent (they should not be affected adversely when processing the same message more than once).
 
-Message Ordering
+## Message Ordering
 A standard queue makes a best effort to preserve the order of messages, but more than one copy of a message might be delivered out of order. If your system requires that order be preserved, we recommend using a **FIFO** (First-In-First-Out) queue or adding sequencing information in each message so you can reorder the messages when they're received. FIFO (First-In-First-Out) queues are designed to enhance messaging between applications when the order of operations and events is critical, or where duplicates can't be tolerated.
 
 You can update the delay value when you create an SQS queue with **SetQueueAttributes**.
@@ -16,3 +13,21 @@ You can update the delay value when you create an SQS queue with **SetQueueAttri
 
 If you update the value, the new value affects only messages enqueued after the update. You can delete a queue at any time, whether it is empty or not. By default, a message is retained for **4 days**. The minimum is **60 seconds (1 minute)**. The maximum is **1,209,600 seconds (14 days)**.
 
+## Monitoring, Logging, and Automating SQS
+**CloudWatch metrics** for your Amazon SQS queues are automatically collected and pushed to CloudWatch **every five minutes**. These metrics are gathered on all queues that meet the CloudWatch guidelines for being active. **CloudWatch considers a queue to be active for up to six hours if it contains any messages or if any action accesses it**.  
+
+**Note.**  
+There is **no charge for the Amazon SQS metrics reported in CloudWatch**. They're provided as part of the Amazon SQS service. Detailed monitoring (or one-minute metrics) is currently **unavailable** for Amazon SQS. Making requests to CloudWatch at this resolution might return no data. CloudWatch metrics are supported for both standard and FIFO queues.
+
+The following SQS actions can be tracked with CloudTrail and the following actions are supported:
+- AddPermission 
+- CreateQueue 
+- DeleteQueue
+- PurgeQueue
+- RemovePermission 
+- SetQueueAttributes
+
+### Keywords
+At-Least-Once Delivery, SQS standard/FIFO, SetQueueAttribute, delay queue, DelaySeconds attribute, 4days, 1min ~ 14days
+
+Exactly-once processing, short polling, queue url, GetQueueAttributes, visibility timeout, 30sec ~ 12hours, long polling, Receive Message Wait Time

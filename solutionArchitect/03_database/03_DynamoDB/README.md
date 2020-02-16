@@ -21,7 +21,7 @@ Amazon DynamoDB supports the following data types:
  
 DynamoDB uses eventually consistent reads, unless you specify otherwise. Read operations (such as GetItem, Query, and Scan) provide a ConsistentRead parameter. If you set this parameter to true, DynamoDB uses strongly consistent reads during the operation.
 
-# Working with DynamoDB
+## Working with DynamoDB
 
 Every global secondary index must have a partition key, and can have an optional sort key. The index key schema can be different from the base table schema; you could have a table with a simple primary key (partition key), and create a global secondary index with a composite primary key (partition key and sort key) — or vice-versa.
 
