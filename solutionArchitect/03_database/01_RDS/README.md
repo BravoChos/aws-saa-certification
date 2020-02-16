@@ -1,12 +1,12 @@
 # Amazon RDS
 The **RDS**: or Relational database service is a fully managed database service that makes it easy to launch database servers in the AWS cloud and scale them  when required. The RDS service can launch service for mySQL including variations of the mySQL database engine with MariaDB and Amazon's own enterprise version of mySQL, Amazon Aurora. Standard postgre SQL is also available and also available as Amazon's Enterprise Aurora postgre SQL. Microsoft SQL server and oracle are also available. 
 
-# Multi-AZ deployment
+## Multi-AZ deployment
 You can run your DB instance in several Availability Zones, an option called a **Multi-AZ deployment**. When you select this option, Amazon automatically provisions and maintains a secondary standby DB instance in a different Availability Zone. Your primary DB instance is synchronously replicated across Availability Zones to the secondary instance to provide **data redundancy, failover support, eliminate I/O freezes, and minimize latency spikes** during system backups.
 
 DB instances using Multi-AZ deployments may have increased write and commit latency compared to a Single-AZ deployment, due to the synchronous data replication that occurs. You may have a change in latency if your deployment fails over to the standby replica, although AWS is engineered with low-latency network connectivity between Availability Zones. For production workloads, we recommend that you use Provisioned IOPS and DB instance classes (m4.large and larger) that are optimized for Provisioned IOPS for fast, consistent performance.
 
-# Security
+## Security
 Amazon RDS uses DB security groups, VPC security groups, and EC2 security groups. In simple terms, a DB security group controls access to a DB instance that is not in a VPC, a VPC security group controls access to a DB instance inside a VPC, and an Amazon EC2 security group controls access to an EC2 instance and can be used with a DB instance.
 
 Security groups control the access that traffic has in and out of a DB instance. Three types of security groups are used with Amazon RDS: DB security groups, VPC security groups, and Amazon EC2 security groups. In simple terms, these work as follows:
@@ -14,13 +14,13 @@ Security groups control the access that traffic has in and out of a DB instance.
 • A VPC security group controls access to DB instances and EC2 instances inside a VPC.
 • An EC2 security group controls access to an EC2 instance.
 
-# Billing Criteria
+## Billing Criteria
 • Instance class & Storage
 • Running time
 • I/O requests per month & Data transfer
 • Backup storage
 
-# DB Failover
+## DB Failover
 If DB Instance Status become failed, Perform a point-in-time restore to the latest restorable time of the instance to recover the data. The failover mechanism automatically changes the DNS record of the DB instance to point to the standby DB instance. As a result, you need to re-establish any existing connections to your DB instance.
 
 In Multi-AZ, the primary DB instance switches over automatically to the standby replica if any of the following conditions occur:
@@ -32,12 +32,12 @@ In Multi-AZ, the primary DB instance switches over automatically to the standby 
 
 Amazon RDS retains **manually created DB snapshots** not automated backup after the DB instance is deleted.
 
-# Read Replica
+## Read Replica
 You can create a **Read Replica** from an existing MySQL, MariaDB, or PostgreSQL DB instance using the AWS Management Console, AWS CLI, or AWS API.
 
 When you create a Read Replica, you first specify an existing DB instance as the source. Then Amazon RDS takes a snapshot of the source instance and creates a read-only instance from the snapshot. Amazon RDS then uses the asynchronous replication method for the DB engine to update the Read Replica whenever there is a change to the source DB instance.
 
-# Section: Best Practices for Amazon RDS
+## Best Practices for Amazon RDS
 The Amazon RDS Service Level Agreement requires that you follow these guidelines:
 - Monitor your memory, CPU, and storage usage.
 - Scale down your DB instance when you are approaching storage capacity limits.
@@ -91,6 +91,6 @@ If you restore a DB instance into a different VPC or onto a different platform, 
 
 When you assign an option group to a DB instance, the option group is also linked to the supported platform the DB instance is on, either VPC or EC2-Classic (non-VPC). If a DB instance is in a VPC, the option group associated with the DB instance is linked to that VPC. This means that you cannot use the option group assigned to a DB instance if you attempt to restore the instance into a different VPC or onto a different platform. If you restore a DB instance into a different VPC or onto a different platform, you must either assign the default option group to the instance, assign an option group that is linked to that VPC or platform, or create a new option group and assign it to the DB instance. For persistent or permanent options, when restoring a DB instance into a different VPC you must create a new option group that includes the persistent or permanent option.
 
-# Limits
+## Limits
 To deliver a managed service experience, Amazon RDS doesn't provide shell access to DB instances, and it restricts access to certain system procedures and tables that require advanced privileges.
 
