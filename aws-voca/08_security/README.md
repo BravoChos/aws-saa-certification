@@ -7,7 +7,7 @@
 
 **AWS Directory Service** is a fully managed Microsoft Active Directory service in the AWS cloud.
 
-**AWS Cloud HSM** is a dedicated hardware security module in the AWS cloud. This allows you to achieve corporate and regulatory compliance while at the same time greatly reducing your costs over using your own HSM in your own infrastructure.
+**AWS CloudHSM** is a dedicated hardware security module in the AWS cloud. This allows you to achieve corporate and regulatory compliance while at the same time greatly reducing your costs over using your own HSM in your own infrastructure.
 
 **Amazon Cognito**: provides sign in and sign up capability for your web and mobile applications you can also integrate that signup process with external ouath providers such as Google and Facebook and also SAML 2 providers as well.
 
