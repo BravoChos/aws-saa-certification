@@ -1,0 +1,2 @@
+# Amazon Cognito
+**Amazon Cognito**: provides sign in and sign up capability for your web and mobile applications you can also integrate that signup process with external ouath providers such as Google and Facebook and also SAML 2 providers as well.

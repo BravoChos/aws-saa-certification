@@ -1,23 +1,50 @@
 # Elastic Container Service
 **ECS** or Amazon Elastic container service: is a highly scalable high-performance container management service for docker containers the containers. They will run on a managed cluster of ec2 instances 
 
-Amazon EC2 provides the following features: 
-- Instances & Instance types & Tags
-- Amazon Machine Images (AMIs)
-- Secure login information for your instances using key pairs
-- Instance store & EBS volumes
-- Hosting in Regions & Availability Zones
-- Security groups
-- Elastic IP addresses
+Following are the features for AWS ECS.
+- Containers and Images
+- Task Definition
+- Tasks and Scheduling
+- Clusters
+- Container Agent
 
-## Amazon Machine Images
+## Service Definition
+A service definition defines which task definition to use with your service, how many instantiations of that task to run, and which load balancer to accociate with your tasks.
 
-From an **AMI**, you launch an instance, which is a copy of the **AMI** running as a virtual server in the cloud. When you launch an instance, you must select an AMI that's in the same region. AMI are region specific but can be copied to another region.
+Following are the parameters defined in Service Definition:
+- Cluster on which to run the service
+- Full ARN of the task definition to run in your service
+- IAM Role that allows Amazon ECS to make calls to your load balancer on yout behalf.
 
-To migrate an instance to another availability zone you must create an AMI from the original instance, launch an instance in the new Availability Zone, and update the configuration of the new instance. 
+## Task Definitions
+To prepare your application to run on Amazon ECS, you create a task definition. The task definition is a textfile, in JSON format, that descirbes, that descirbes one or more containers, up to a maximum of ten, that form your application. It can be thought of as a blueprint for your application. A task definition is required to run Docker containers in Amazon ECS. Some of the parameters you can specify in a task definition include:
 
-## Best Practices for Amazon EC2
+- The **Docker image** to use with each container in your task
+- How much **CPU and memory** to use with each task or each container within a task
+- The launch type to use, which determines the infrastructure on which your tasks are hosted
+- The **Docker networking mode** to use for the containers in your task
+- The logging configuration to use for your tasks
+- Whether the task should continue to run if the container finishes or fails
+- The command the container should run when it is started
+- Any **data volumes** and environment variables that should be used with the containers in the task
+- The IAM role that your tasks should use
 
-It is best practice to use the instance store available for your instance to store temporary data. Use the instance store available for your instance to store temporary data. Remember that the data stored in instance store is deleted when you stop or terminate your instance. If you use instance store for database storage, ensure that you have a cluster with a replication factor that ensures fault tolerance.
+## Security Configuration
+You have root access to the operating system of your container instances, enabling you to take ownership of the operating system's security settings as well as load and configure additional software components for security capabilities such as monitoring, patch management, log management and host intrusion detection.
 
-It is best practice to use instance metadata and custom resource tags to track and identify your AWS resources. Use instance metadata and custom resource tags to track and identify your AWS resources.
+## Elastic Container Registry
+ECR is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker continer images
+
+## Amazon ECS Launch Types
+An Amazon ECS launch type determines the type of infrastructure on which your tasks and services are hosted.
+
+### Fargte Launch Type
+The Farget launch type allows you to run your containerized applications without the need to provision and manage the backend infrastructure. Just register your task definition and Fargte launches the container for you.
+
+### EC2 Launch Type
+The EC2 launch type allows you to run your containerized applications on cluster of Amazon EC2 instances that you manage.
+
+When you launch an Amazon ECS container instance, you have the option of passing user data to the instance. The data can be used to perform comon automated configuration tasks and even run scripts configuration information to the Docker daemon and the Amazon ECS container agent.
+
+The Amazon ECS-optimized AMI looks for agent configuration dat in the /etc/ecs/ecs.config file when the container agent starts. You can specify this configuration data at launch with Amazon EC2 user data.
+

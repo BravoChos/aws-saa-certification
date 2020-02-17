@@ -52,7 +52,7 @@ InnoDB is the recommended and supported storage engine for MySQL DB instances on
 
 We recommend that you do not enable the following modes **because they turn off transaction logging, which is required for Multi-AZ**: Simple recover mode, Offline mode, Read-only mode.
 
-# Amazon RDS DB Instances and its Lifecycle
+## Amazon RDS DB Instances and its Lifecycle
 Amazon RDS creates a master user account for your DB instance as part of the creation process. This master user has permissions to create databases and to perform create, delete, select, update, and insert operations on tables the master user creates. You must set the master user password when you create a DB instance, but **you can change it at any time using the Amazon AWS command line tools, Amazon RDS API actions, or the AWS Management Console**. You can also change the master user password and manage users using standard SQL commands.
 
 The 30-minute maintenance window is selected at random from an 8-hour block of time per region. If you don't specify a preferred maintenance window when you create the DB instance or DB cluster, then Amazon RDS assigns a 30-minute maintenance window on a randomly selected day of the week.
