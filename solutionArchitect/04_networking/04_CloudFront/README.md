@@ -1,3 +1,12 @@
+# CloudFront
+**Amazon CloudFront**: is a global content delivery network or CDN for short that securely delivers your frequently requested content to over 100 edge locations across the globe and by doing this it achieves low latency and high transfer speeds for your end-users. It also provides protection against DDoS attacks. 
+
+
+
+
+
+
+
 **What is CloudFront?**
 1. Web servicec for high performance content delivery.
 2. World-wide network data centres (edge locations).

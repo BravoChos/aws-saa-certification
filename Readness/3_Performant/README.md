@@ -4,7 +4,7 @@
 3. Design solutions for elasticity and scalability
 
 # Test Axioms
-- Expect "Single AZ" will never be a right answer
-- Using AWS managed services should always be preferred
-- Fault tolerant and high availability are not the same thing
-- Expect that everything will fail at some point and design accordingly
+- If data is unstructured, Amazon S3 is generally the storage solution.
+- Use caching stragically to improve performance
+- Know when and why to use Auto Scaling
+- Choose the instance and database type that makes the most sense for your workload and performance need.
