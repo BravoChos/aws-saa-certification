@@ -1,0 +1,2 @@
+# AWS Code Deploy
+**AWS Code Deploy**: is a service that automates software deployments to a variety of compute services including Amazon ec2 AWS lambda and even instances that are running on premises. 
