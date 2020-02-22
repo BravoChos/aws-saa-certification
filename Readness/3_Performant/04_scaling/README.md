@@ -30,3 +30,4 @@ Auto Scaling Group
 Auto Scaling Policy
 - specifies how much to scale in or scale out the Auto Scaling
 - one or more may be attached to Auto Scaling group
+
