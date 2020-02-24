@@ -19,7 +19,7 @@ If you update the value, the new value affects only messages enqueued after the 
 **Note.**  
 There is **no charge for the Amazon SQS metrics reported in CloudWatch**. They're provided as part of the Amazon SQS service. Detailed monitoring (or one-minute metrics) is currently **unavailable** for Amazon SQS. Making requests to CloudWatch at this resolution might return no data. CloudWatch metrics are supported for both standard and FIFO queues.
 
-The following SQS actions can be tracked with CloudTrail and the following actions are supported:
+The following SQS actions can be tracked with **CloudTrail** and the following actions are supported:
 - AddPermission 
 - CreateQueue 
 - DeleteQueue

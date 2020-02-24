@@ -3,8 +3,7 @@
 
 **Amazon WorkMail**: is a secure managed business email and calendar service. 
 
-**Amazon Chime**: is an online meeting service in the AWS cloud. It is great for businesses for online meetings video conferencing calls
-chat and to share content both inside and outside of your organization.
+**Amazon Chime**: is an online meeting service in the AWS cloud. It is great for businesses for online meetings video conferencing calls chat and to share content both inside and outside of your organization.
 
 **Amazon WorkSpaces**: is a fully managed secure desktop as a service. It can easily provision streaming cloud-based Microsoft Windows desktops. 
 

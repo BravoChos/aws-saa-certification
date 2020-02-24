@@ -9,8 +9,8 @@
 
 **AWS CloudTrail**: monitors and logs AWS account activity including actions taken through the AWS management console, the AWS software development kits, the command-line tools and other AWS services. So this greatly simplifies security analysis of the activity of users of your account. 
 
-**AWS Config** enables you to assess, audit and evaluate the configurations of your AWS resources. This simplifies compliance auditing, security analysis, change management and control and also, operational troubleshooting. 
+**AWS Config** enables you to **assess, audit and evaluate the configurations** of your AWS resources. This simplifies compliance auditing, security analysis, change management and control and also, operational troubleshooting. 
 
 **AWS Opsworks** provides managed instances of Chef and Puppet. Chef and Puppet can be used to configure and automate the deployment of AWS resources. 
 
-**AWS Trusted Advisor** is an online expert system that can analyze your AWS account and the resources inside it and then advise you on how to achieve high security and best performance from those resources.
+**AWS Trusted Advisor** is an **online expert system** that can analyze your AWS account and the resources inside it and then advise you on how to achieve high security and best performance from those resources.

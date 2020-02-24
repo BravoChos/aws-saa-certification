@@ -25,6 +25,10 @@ GLACIER storage class S3 objects are visible and available only through Amazon S
 
 <img src="./diagram/s3_data_consistency.png" width="80%">
 
+**Note:**  
+S3 has eventual consistency for overwrite PUT and DELETEs.
+
+
 **Read-after-write consistency** allows you to retrieve objects immediately after creation in Amazon S3.
 Eventually consistent reads can provide higher read throughput than consistent reads.
 
