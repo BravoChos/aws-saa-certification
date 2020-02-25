@@ -8,6 +8,8 @@ Following are the features for AWS ECS.
 - Clusters
 - Container Agent
 
+<img src="./diagram/ECS-Overview-Standard.png">
+
 ## Service Definition
 A service definition defines which task definition to use with your service, how many instantiations of that task to run, and which load balancer to accociate with your tasks.
 
@@ -38,13 +40,33 @@ ECR is a fully-managed Docker container registry that makes it easy for develope
 ## Amazon ECS Launch Types
 An Amazon ECS launch type determines the type of infrastructure on which your tasks and services are hosted.
 
-### Fargte Launch Type
+### 1. Fargte Launch Type
 The Farget launch type allows you to run your containerized applications without the need to provision and manage the backend infrastructure. Just register your task definition and Fargte launches the container for you.
 
-### EC2 Launch Type
+### 2. EC2 Launch Type
 The EC2 launch type allows you to run your containerized applications on cluster of Amazon EC2 instances that you manage.
 
 When you launch an Amazon ECS container instance, you have the option of passing user data to the instance. The data can be used to perform comon automated configuration tasks and even run scripts configuration information to the Docker daemon and the Amazon ECS container agent.
 
 The Amazon ECS-optimized AMI looks for agent configuration dat in the /etc/ecs/ecs.config file when the container agent starts. You can specify this configuration data at launch with Amazon EC2 user data.
 
+
+# Elastic Container Registry
+Amazon Elastic Container Registry (Amazon ECR) is a managed AWS Docker registry service that is secure, scalable, and reliable. Amazon ECR supports private Docker repositories with resource-based permissions using AWS IAM so that specific users or Amazon EC2 instances can access repositories and images. Developers can use the Docker CLI to push, pull, and manage images.
+
+## Components of Amazon ECR
+### 1. Registry
+
+An Amazon ECR registry is provided to each AWS account; you can create image repositories in your registry and store images in them. For more information, see Amazon ECR Registries.
+
+### 2. Authorization token
+Your Docker client must authenticate to Amazon ECR registries as an AWS user before it can push and pull images. The AWS CLI get-login command provides you with authentication credentials to pass to Docker. For more information, see Registry Authentication.
+
+### 3. Repository
+An Amazon ECR image repository contains your Docker or Open Container Initiative (OCI) images. For more information, see Amazon ECR Repositories.
+
+### 4. Repository policy
+You can control access to your repositories and the images within them with repository policies. For more information, see Amazon ECR Repository Policies.
+
+### 5. Image
+You can push and pull container images to your repositories. You can use these images locally on your development system, or you can use them in Amazon ECS task definitions. For more information, see Using Amazon ECR Images with Amazon ECS.

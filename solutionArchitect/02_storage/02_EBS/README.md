@@ -1,13 +1,16 @@
 # AWS EBS
 **EBS** or Amazon elastic block store: is a highly available, low latency block storage and it's specifically for attaching to servers that are launched with the Amazon ec2 service. It's block device storage.
 
-**You can modify the volume and increase in volume size.** You can attach multiple EBS volumes to the single EC2 instances.
-
 <img src="./diagram/ebs_key_value.png">
 
 - SSD-backed volumes optimized for **transactional** workload involving frequent read/write operations with small I/O size, where the dominant performance atribute is IOPS
 
 - HDD-backed volumes optimized for large **streaming** workloads where throughput (measured in MiB/s) is a better performance measure than IOPS  
+
+**You can modify the volume and increase in volume size.** You can attach multiple EBS volumes to the single EC2 instances.
+
+Each Amazon EBS Volume is **automatically replicated** within its Availability Zone to protect you from component failure, offering high availability.
+
 
 ## Automating the Amazon EBS Snapshot Lifecycle
 You can use Amazon Data Lifecycle Manager (Amazon DLM) to automate the creation, retention, and deletion of snapshots taken to back up your Amazon EBS Volumes. Automating snapshots management helps you to:

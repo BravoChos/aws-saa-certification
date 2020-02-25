@@ -2,7 +2,7 @@
 The **RDS**: or Relational database service is a fully managed database service that makes it easy to launch database servers in the AWS cloud and scale them  when required. The RDS service can launch service for mySQL including variations of the mySQL database engine with MariaDB and Amazon's own enterprise version of mySQL, Amazon Aurora. Standard postgre SQL is also available and also available as Amazon's Enterprise Aurora postgre SQL. Microsoft SQL server and oracle are also available. 
 
 ## Multi-AZ deployment
-You can run your DB instance in several Availability Zones, an option called a **Multi-AZ deployment**. When you select this option, Amazon automatically provisions and maintains a secondary standby DB instance in a different Availability Zone. Your primary DB instance is synchronously replicated across Availability Zones to the secondary instance to provide **data redundancy, failover support, eliminate I/O freezes, and minimize latency spikes** during system backups.
+You can run your DB instance in several Availability Zones, an option called a **Multi-AZ deployment**. When you select this option, Amazon automatically provisions and maintains a secondary standby DB instance in a different Availability Zone. Your primary DB instance is **synchronously** replicated across Availability Zones to the secondary instance to provide **data redundancy, failover support, eliminate I/O freezes, and minimize latency spikes** during system backups.
 
 DB instances using Multi-AZ deployments may have increased write and commit latency compared to a Single-AZ deployment, due to the synchronous data replication that occurs. You may have a change in latency if your deployment fails over to the standby replica, although AWS is engineered with low-latency network connectivity between Availability Zones. For production workloads, we recommend that you use Provisioned IOPS and DB instance classes (m4.large and larger) that are optimized for Provisioned IOPS for fast, consistent performance.
 
@@ -34,6 +34,8 @@ Amazon RDS retains **manually created DB snapshots** not automated backup after 
 
 ## Read Replica
 You can create a **Read Replica** from an existing MySQL, MariaDB, or PostgreSQL DB instance using the AWS Management Console, AWS CLI, or AWS API.
+
+Amazon RDS Read Replicas provide enhanced performance and durability for database(DB) instances. This feature makes it easy to elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads. You can create one or more replicas (secondary database) of a given source DB Instance and serve high-volume application read traffic from mulitiple copies of you data, thereby increasing aggregate read throughput.
 
 When you create a Read Replica, you first specify an existing DB instance as the source. Then Amazon RDS takes a snapshot of the source instance and creates a read-only instance from the snapshot. Amazon RDS then uses the asynchronous replication method for the DB engine to update the Read Replica whenever there is a change to the source DB instance.
 

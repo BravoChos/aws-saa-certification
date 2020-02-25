@@ -9,6 +9,8 @@ Customers may use mechanisms for controlling access to Amazon S3 resources:
 - Access Control Lists (ACLs)
 - Query string authentication
 
+**Versioning** is  on the bucket level and can be used to recover prior versions of an object.
+
 ## Storage Class
 
 <img src="./diagram/s3_storage_clasess.png" width="95%">

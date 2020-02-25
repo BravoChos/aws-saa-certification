@@ -42,4 +42,7 @@ An IAM group is a collection of IAM users. Groups let you specify permissions fo
 Any user in that group automatically has the permissions that are assigned to the group. If a new user joins your organization and needs administrator privileges, you can assign the appropriate permissions by adding the user to that group. Similarly, if a person changes jobs in your organization, instead of editing that user's permissions, you can remove him or her from the old groups and add him or her to the appropriate new groups.
 
 **NOTE**  
-You can only use ASCII characters for IAM entities.
+- You can only use ASCII characters for IAM entities.  
+- You can use roles to delegate access to users, applications or services that don't normally have access to your AWS resources. 
+- It is **NOT** a good practice to use IAM credentials for a production-based application. However, it is good practice to use IAM Roles
+- Creating a seperate AWS account for developers will help the organization to facilitate the highest level of resource and security isolation.
