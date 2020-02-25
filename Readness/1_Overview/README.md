@@ -1,5 +1,5 @@
 # Overview
-The AWS Certified Solutions Architect - Associate examination is intended for individuals who perform a Solutions Architect role. This exam validates an examinee's ablitity to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies. The
+The AWS Certified Solutions Architect - Associate examination is intended for individuals who perform a Solutions Architect role. This exam validates an examinee's ablitity to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies. 
 
 The exam validates an examinee's ablitity to:
 - Define a solution using architectural design principles based on customer requirements.
