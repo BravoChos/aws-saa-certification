@@ -58,6 +58,9 @@ Default metric types available for Simple Policy and Step policy
 - Average Network In (Bytes)
 - Average Network Out (Bytes)
 
+## Lifecycle Hooks 
+Adding **Lifecycle Hooks** to Auto Scaling group puts the instance into **wait state** befor termination. During this wait state, you can perform custom activites to retrieve critical operational data from a statefull instance. **Default Wait period is 1 hour**.
+
 **Termination Policy** 
 - Default: The default termination policy is designed to help ensure that your network architecture spans Availability Zones evenly. With the default termination policy, the behavior of the Auto Scaling group is as follows:    
     1. Determine which Availability Zones have the most instances, and at least one instance that is not protected from scale in.

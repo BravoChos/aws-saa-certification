@@ -1,12 +1,3 @@
-## What is the difference between ElastiCache and CloudFront?
-
-**1)-Elasticache:**   
-ElastiCache is improving the performance of you application, where the data is retrieved from in memory data stores.
-It means elastic cache is caching data from database. The request reaches the origin server.  
-
-**2)-Cloudfront:**   
-Cloudfront is caching the data on a remote edge location which means that the request is not even going to the origin server.
-
 ## Protecting Data in Amazon S3
 Following options of protecting data at rest in Amazon S3:
 
