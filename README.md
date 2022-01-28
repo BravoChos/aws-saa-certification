@@ -30,3 +30,15 @@
     - [Redshift](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/03_database/04_Redshift)
     - [ElasticCache](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/03_database/05_ElasticCache)
     - [Neptune](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/03_database/06_Neptune)
+
+4.  Networking
+
+    - [VPC](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/04_networking/01_VPC)
+      - [intro](https://github.com/DeepLearnerSC/aws-saa-certification/blob/master/solutionArchitect/04_networking/01_VPC/vpc_intro.md)
+      - [component](https://github.com/DeepLearnerSC/aws-saa-certification/blob/master/solutionArchitect/04_networking/01_VPC/vpc_component.md)
+      - [subnet](https://github.com/DeepLearnerSC/aws-saa-certification/blob/master/solutionArchitect/04_networking/01_VPC/vpc_subnet.md)
+    - [API Gateway](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/04_networking/02_API_Gateway)
+    - [Route53](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/04_networking/03_Route53)
+    - [CloudFront](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/04_networking/04_CloudFront)
+    - [DirectConnection](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/04_networking/05_DirectConnection)
+    - [ELB](https://github.com/DeepLearnerSC/aws-saa-certification/tree/master/solutionArchitect/04_networking/06_ELB)
