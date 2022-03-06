@@ -42,3 +42,7 @@
     - [CloudFront](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/04_networking/04_CloudFront)
     - [DirectConnection](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/04_networking/05_DirectConnection)
     - [ELB](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/04_networking/06_ELB)
+
+5.  Management
+    - [CloudFormation](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/01_CloudFormation)
+    - [CloudWatch](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/02_CloudWatch)
