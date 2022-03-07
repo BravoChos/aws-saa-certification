@@ -46,3 +46,4 @@
 5.  Management
     - [CloudFormation](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/01_CloudFormation)
     - [CloudWatch](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/02_CloudWatch)
+    - [CloudTrail](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/03_CloudTrail)
