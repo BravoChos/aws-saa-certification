@@ -48,3 +48,5 @@
     - [CloudWatch](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/02_CloudWatch)
     - [CloudTrail](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/03_CloudTrail)
     - [OpsWork](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/04_OpsWork)
+    - [TrustedAdvisor](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/05_TrustedAdvisor)
+    - [AWS Config](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/06_AWS_Config)
