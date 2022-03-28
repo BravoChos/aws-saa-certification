@@ -56,3 +56,4 @@
     - [Elastic Search](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/01_Elastic_Search)
     - [Kinesis](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/02_Kinesis)
     - [EMR](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/03_EMR)
+    - [Athena](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/04_Athena)
