@@ -42,3 +42,18 @@
     - [CloudFront](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/04_networking/04_CloudFront)
     - [DirectConnection](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/04_networking/05_DirectConnection)
     - [ELB](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/04_networking/06_ELB)
+
+5.  Management
+
+    - [CloudFormation](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/01_CloudFormation)
+    - [CloudWatch](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/02_CloudWatch)
+    - [CloudTrail](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/03_CloudTrail)
+    - [OpsWork](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/04_OpsWork)
+    - [TrustedAdvisor](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/05_TrustedAdvisor)
+    - [AWS Config](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/06_AWS_Config)
+
+6.  Analytics
+    - [Elastic Search](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/01_Elastic_Search)
+    - [Kinesis](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/02_Kinesis)
+    - [EMR](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/03_EMR)
+    - [Athena](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/04_Athena)
