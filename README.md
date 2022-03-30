@@ -61,3 +61,4 @@
 
 7.  Developer Tools
     - [CodePipeline](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/07_developer_tools/01_CodePipeline)
+    - [CodeDeploy](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/07_developer_tools/02_CodeDeploy)
