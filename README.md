@@ -69,3 +69,6 @@
     - [IAM](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/01_IAM)
     - [Cognito](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/02_Cognito)
     - [CertificateManager](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/04_CertificateManager)
+    - [KMS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/05_KMS)
+9.  Application
+    - [SNS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/01_SNS)
