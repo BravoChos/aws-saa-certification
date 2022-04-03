@@ -67,3 +67,5 @@
 
 8.  Security
     - [IAM](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/01_IAM)
+    - [Cognito](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/02_Cognito)
+    - [CertificateManager](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/04_CertificateManager)
