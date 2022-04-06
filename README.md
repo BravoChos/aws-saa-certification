@@ -53,7 +53,26 @@
     - [AWS Config](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/05_management/06_AWS_Config)
 
 6.  Analytics
+
     - [Elastic Search](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/01_Elastic_Search)
     - [Kinesis](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/02_Kinesis)
     - [EMR](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/03_EMR)
     - [Athena](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/06_analytics/04_Athena)
+
+7.  Developer Tools
+
+    - [CodePipeline](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/07_developer_tools/01_CodePipeline)
+    - [CodeDeploy](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/07_developer_tools/02_CodeDeploy)
+    - [CodeCommit](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/07_developer_tools/03_CodeCommit)
+
+8.  Security
+    - [IAM](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/01_IAM)
+    - [Cognito](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/02_Cognito)
+    - [CertificateManager](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/04_CertificateManager)
+    - [KMS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/08_security/05_KMS)
+9.  Application
+    - [SNS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/01_SNS)
+    - [SQS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/02_SQS)
+    - [SQS-advanced](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/02_SQS/advanced)
+    - [SWF](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/03_SWF)
+    - [STS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/04_STS)
