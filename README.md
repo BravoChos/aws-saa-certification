@@ -73,6 +73,6 @@
 9.  Application
     - [SNS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/01_SNS)
     - [SQS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/02_SQS)
-    - [SQS-advanced](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/02_SQS/advanced)
+      - [advanced](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/02_SQS/advanced)
     - [SWF](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/03_SWF)
     - [STS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/04_STS)
