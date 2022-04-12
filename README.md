@@ -76,3 +76,35 @@
       - [advanced](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/02_SQS/advanced)
     - [SWF](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/03_SWF)
     - [STS](https://github.com/BravoChos/aws-saa-certification/tree/master/solutionArchitect/09_application/04_STS)
+
+<br/>
+
+## AWS Services
+
+<br/>
+
+<img src='./asset/aws_services.png'>
+
+<br/>
+
+## Serverless Level
+
+<br/>
+
+<img src='./asset/serverless_level.png'>
+
+<br/>
+
+## ElasticBeanstalk vs cloudFormation
+
+<br/>
+
+<img src='./asset/ElasticBeanstalk vs cloudFormation.png'>
+
+<br/>
+
+## Web Application Hosting
+
+<br/>
+
+<img src='./asset/Web Application Hosting.png'>
