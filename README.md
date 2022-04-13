@@ -108,3 +108,9 @@
 <br/>
 
 <img src='./asset/Web Application Hosting.png'>
+
+<br/>
+
+## AWS VOCA
+
+1. [Compute](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/01_compute)
