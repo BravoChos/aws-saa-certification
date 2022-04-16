@@ -114,5 +114,5 @@
 ## AWS VOCA
 
 1. [Compute](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/01_compute)
-
 2. [Storage](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/02_storage)
+3. [Database](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/03_database)
