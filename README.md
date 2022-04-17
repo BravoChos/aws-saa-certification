@@ -117,3 +117,4 @@
 2. [Storage](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/02_storage)
 3. [Database](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/03_database)
 4. [Networking](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/04_networking)
+5. [Management](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/05_management)
