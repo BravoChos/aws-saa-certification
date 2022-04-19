@@ -118,3 +118,4 @@
 3. [Database](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/03_database)
 4. [Networking](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/04_networking)
 5. [Management](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/05_management)
+6. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/06_analytics)
