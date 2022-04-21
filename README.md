@@ -120,3 +120,4 @@
 5. [Management](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/05_management)
 6. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/06_analytics)
 7. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/07_developer_tools)
+8. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/08_security)
