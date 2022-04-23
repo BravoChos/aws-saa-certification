@@ -122,3 +122,10 @@
 7. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/07_developer_tools)
 8. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/08_security)
 9. [Application](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/09_application)
+10. Additional
+    - [Business](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Business)
+    - [IoT&Games](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/IoT&Games)
+    - [MachineLearning](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/MachineLearning)
+    - [Media](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Media)
+    - [Migration](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Migration)
+    - [Mobile](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Mobile)
