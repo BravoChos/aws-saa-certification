@@ -108,3 +108,24 @@
 <br/>
 
 <img src='./asset/Web Application Hosting.png'>
+
+<br/>
+
+## AWS VOCA
+
+1. [Compute](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/01_compute)
+2. [Storage](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/02_storage)
+3. [Database](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/03_database)
+4. [Networking](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/04_networking)
+5. [Management](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/05_management)
+6. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/06_analytics)
+7. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/07_developer_tools)
+8. [Analytics](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/08_security)
+9. [Application](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/09_application)
+10. Additional
+    - [Business](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Business)
+    - [IoT&Games](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/IoT&Games)
+    - [MachineLearning](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/MachineLearning)
+    - [Media](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Media)
+    - [Migration](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Migration)
+    - [Mobile](https://github.com/BravoChos/aws-saa-certification/tree/master/aws-voca/10_additional/Mobile)
